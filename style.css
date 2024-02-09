@@ -1,0 +1,51 @@
+
+* {
+    margin: 10;
+    padding: 10;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color:rgb(213, 228, 213); 
+  }
+  
+  table {
+    width: 100%;
+    padding: 1px;;
+  }
+  
+  td {
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  .home, .story, .about, .address, .logins {
+    display: block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #e9f2f6;
+    text-decoration:none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .home:hover, .story:hover, .about:hover, .address:hover, .logins:hover {
+    background-color: #0056b3;
+  }
+  
+  .home:focus, .story:focus, .about:focus, .address:focus, .logins:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.5);
+  }
+   a {
+    text-decoration: none;
+  }
+  .division1{
+    border:none;
+    border-width:1px;
+    height: 1000px
+    
+  }
+  img{
+    height: 100%;
+  }
